@@ -9,6 +9,10 @@ body {
     text-align: center;
 }
 
+#copy{
+     display: none;
+}
+
 canvas {
     border: 1px solid black;
 }
