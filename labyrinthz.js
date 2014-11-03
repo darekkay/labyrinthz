@@ -3,8 +3,8 @@ window.onload = function () {
     // ------------------------------------------
     // SETTINGS
 
-    var debug = true;
-    var validColors = ["a6caf0", "c06000", "0080c0", "00ff00", "ffff00"];
+    var debug = false;
+    var validColors = ["a6caf0", "c06000", "0080c0", "e08000"];
     var nextLevelColors = ["804000", "ff0000"];
     var levelCount = 8;
     var levelStartingPositions = [
@@ -145,7 +145,7 @@ window.onload = function () {
             nextLevel();
         }
         else if (validColors.indexOf(currentColor) === -1) {
-            //restartLevel();
+            restartLevel();
         }
     }
 
