@@ -131,8 +131,10 @@ window.onload = function () {
         if (!game.input.mouse.locked)
             return;
 
-        cursor.x += game.input.mouse.event.webkitMovementX;
-        cursor.y += game.input.mouse.event.webkitMovementY;
+        var e = game.input.mouse.event;
+
+        cursor.x += e.movementX || e.mozMovementX || e.webkitMovementX || 0;
+        cursor.y += e.movementY || e.mozMovementY || e.webkitMovementY || 0;
 
         ensureCursorWithinBorders();
 
