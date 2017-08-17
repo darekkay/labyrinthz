@@ -4,7 +4,7 @@ Labyrinthz
 A simple maze browser game written using [Phaser](http://github.com/photonstorm/phaser).
 
  - [Live demo](https://darekkay.com/labyrinthz/)
- - [Blog post](https://darekkay.com/2014/11/05/labyrinthz/)
+ - [Blog post](https://darekkay.com/blog/labyrinthz/)
 
 ## License
 
