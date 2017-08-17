@@ -8,7 +8,7 @@ A simple maze browser game written using [Phaser](http://github.com/photonstorm/
 
 ## License
 
-Copyright 2014 Darek Kay <darekkay@gmail.com>  
+Copyright 2014 Darek Kay <hello@darekkay.com>  
 
 This project and its contents are open source under the [MIT license](LICENSE.txt).
 
